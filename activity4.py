@@ -1,4 +1,4 @@
-otto = "\"who let the dogs out"
+motto = "\"who let the dogs out"
 motto2 = "\t\tdo it lazy, do it unmotivated,just do it"
 motto3 = "\t\tLearn to rest \n\t\tnot to quit"
 
