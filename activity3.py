@@ -1,7 +1,6 @@
 #string variable
-
 name = "Joshua G Pauyo"
-
+address = "brgy.pitipiwpiwwiwiw"
 #integer variable
 age = "18"
 
@@ -13,7 +12,5 @@ weight = "54.1"
 isaBoy = True
 
 #print
-print("Hi my name is", name)
-print("i am", age,"years old")
-print("i am a boy", isaBoy)
-print("i am", height,"tall and i weight", weight) 
+print("Hi my name is", name,",i live at", address,",my age is", age,"and i weight", weight,"i am ", height,"tall. Am i a boy?", isaBoy)
+
