@@ -1,6 +1,6 @@
-motto = "\"who let the dogs out"
+otto = "\"who let the dogs out"
 motto2 = "\t\tdo it lazy, do it unmotivated,just do it"
-motto3 = "\t\tLearn to rest not to quit"
+motto3 = "\t\tLearn to rest \n\t\tnot to quit"
 
 print(motto)
 print(motto2)
