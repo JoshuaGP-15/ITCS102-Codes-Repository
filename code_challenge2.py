@@ -1,5 +1,4 @@
 #codechallenge2
-print("--------------------------------------------------------")
 money = int(input("Amount to deposit --"))
 
 oneK = money // 1000
@@ -32,14 +31,17 @@ lima_tira = sampo_tira % 5
 piso = lima_tira // 1  
 piso_tira = lima_tira % 1  
 
-print("1000 -->", oneK)
-print(" 500 -->", fiveh)
-print(" 300-->", threeH)
-print(" 200 -->", twoH)
-print(" 100 -->", oneH)
-print("  50 -->", fifty)
-print("  20 -->", bente)
-print("  10 -->", sampo)
-print("   5 -->", lima)
-print("   1 -->", piso)
 print("--------------------------------------------------------")
+print("1000 -->", oneK)
+print("500  -->", fiveh)
+print("300  -->", threeH)
+print("200  -->", twoH)
+print("100  -->", oneH)
+print("50   -->", fifty)
+print("20   -->", bente)
+print("10   -->", sampo)
+print("5    -->", lima)
+print("1    -->", piso)
+print("--------------------------------------------------------")
+
+print('Your current balance --', money)
