@@ -12,7 +12,7 @@ base_cost = (weight * 2.50) + (distance * 0.15)
 free_shipping = weight <= 2 and distance <= 100 and is_express == False and is_international == False
 
 if free_shipping:
-    print('Free-shipping Applied')
+    print('You got Free-shipping!!')
     total_cost = 0.00
 
 elif is_international == True and is_express == True:
