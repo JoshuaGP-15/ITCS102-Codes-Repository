@@ -16,12 +16,15 @@ if free_shipping:
     total_cost = 0.00
 
 elif is_international == True and is_express == True:
+    print('International Express')
     total_cost = (base_cost * 1.40) + 50
 
 elif is_express == True or (is_international == True and weight > 20):
+    print('Express or Heavy International')
     total_cost = (base_cost * 1.20) + 25
 
 elif weight > 30 or distance > 1000:
+    print('Oversized!')
     total_cost = base_cost + 30
 
 else:
