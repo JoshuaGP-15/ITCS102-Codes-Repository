@@ -8,7 +8,7 @@ base_rate = 0.0
 
 if age >= 21 and is_employed == True:
 
-    if credit_score >= 750:
+    if credit_score >= 750: #tier 1
         print("You pass the requirements")
 
         if annual_income >= 100000:
@@ -19,7 +19,7 @@ if age >= 21 and is_employed == True:
             base_rate = 5.0
             print(" Approved! your rate is", base_rate)
 
-    elif credit_score >= 600 and credit_score < 750:
+    elif credit_score >= 600 and credit_score < 750: #tier2
 
         if has_collateral == True:
             base_rate = 7.0
@@ -32,7 +32,7 @@ if age >= 21 and is_employed == True:
         else:
             base_rate = 8.0
             print("Approved! your rate", base_rate)
-
+#tier 3
     else:
         print("Rejected: Credit score too low")
 
