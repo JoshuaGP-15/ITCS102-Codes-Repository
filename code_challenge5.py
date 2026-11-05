@@ -6,4 +6,4 @@ for x in range(size):
       print('*',end=' ')
     else:
       print(' ',end=' ')
-print()
+  print()
